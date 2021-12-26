@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*---------Navbar-------------*/
+.logo{
+    height: 40%;
+    width:40%;
+    margin-left: 30px;
+}
+.nav-item{
+    font-weight: 600;
+}
+.nav-item:hover{
+    text-decoration: underline;
+}
+.btn{
+    margin-right: 30px;
+}
+
+/*--------login---------------*/
+.login{
+    margin-top: 40px;
+}
+.ut,.pt{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    color: black;
+}
+.lb{
+    height: 50px;
+    width: 120px;
+    color: white;
+    background-color: darkcyan;
+    border-radius: 10px;
+}
+.log{
+    color: black;
+}
+
+/*---------About------------*/
+#about{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#about h2,h3{
+    text-align: center;
+}
+#about p{
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+/*----------Footer----------*/
+.footer{
+    background:lightslategrey;
+    color: white;
+    text-align: center;
+}
+
+/*------contact-----*/
+#contact{
+    margin-top: 2%;
+}
+
+/*-------register----------*/
+.register{
+    margin-top: 2%;
+}
+.reg input{
+    height: 30px;
+  	width: 200px;
+  	border-radius: 5px;
+}
+.sb{
+    height: 50px;
+    width: 120px;
+    color: white;
+    background-color: darkcyan;
+    border-radius: 10px;
+}
+
+/*------------Admin home page----------------*/
+.admin_work{
+    margin-left: 160px;
+}
+.admin_work button{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(5, 29, 53);
+    border-radius: 60px;
+    border: 4px solid rgb(5, 29, 53);
+    margin-top: 200px;
+    margin-left:120px;
+}
+.admin_work a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+/*----------------student home page---------------------*/
+.st{
+    margin-left: 160px;
+}
+.st button{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(5, 29, 53);
+    border-radius: 60px;
+    border: 4px solid rgb(5, 29, 53);
+    margin-top: 200px;
+    margin-left:120px;
+}
+.st a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
