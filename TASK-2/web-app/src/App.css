@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*---------- Header--------- */
+
+.logo{
+    width: 50px;
+    height: 30px;
+    margin-left: 10%;
+    animation: colorchange 2s infinite;
+}
+@keyframes colorchange{
+    0%{color:chocolate ;}
+    25%{color: #ff0157 ;}
+    50%{color: rgb(52, 221, 18);}
+    75%{color: rgb(250, 230, 114);}
+    100%{color: #246edd;}
+}
+.d-flex{
+    margin-right: 10%;
+}
+
+/*------Card------*/
+.card{
+    height: 70%;
+    width: 60%;
+    border-radius: 4px;
+}
+.card:hover{
+    height: 76%;
+    width: 70%;
+}
+.card-body{
+    color: white;
+}
+.card-body:hover{
+    background-color:#0a1931;
+    color:antiquewhite
+}
